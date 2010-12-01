@@ -3,8 +3,8 @@ Contributors: Nductiv
 Donate link: http://nductiv.com/
 Tags: 3D Photo, Pherio
 Requires at least: 2.6
-Tested up to: 3.0.1
-Stable tag: 0.2.0
+Tested up to: 3.0.2
+Stable tag: 1.0.0
 
 Adds the shortcode [3dpix] which embeds a 3D image from Phereo.com into your post.
 
@@ -69,6 +69,9 @@ which do not explicitly set them to different values.
 4. This is how an anaglyph 3D Pix is displayed on a WordPress page/post.
 
 == Changelog ==
+
+= 1.0.0 =
+* Fixed some PHP syntax errors
 
 = 0.2 =
 * First release
