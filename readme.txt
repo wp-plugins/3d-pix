@@ -4,7 +4,7 @@ Donate link: http://nductiv.com/
 Tags: 3D Photo, Pherio
 Requires at least: 2.6
 Tested up to: 3.0.1
-Stable tag: trunk
+Stable tag: 0.2.0
 
 Adds the shortcode [3dpix] which embeds a 3D image from Phereo.com into your post.
 
