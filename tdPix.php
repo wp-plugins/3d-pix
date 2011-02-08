@@ -4,10 +4,10 @@ Plugin Name: 3D Pix
 Plugin URI: http://nductiv.com/plugins
 Description: This plugin adds the shortcode [3dpix] which embeds a 3D image from Phereo.com into your post. It also adds a 3D Pix icon to the tinymce editor to insert that shortcode and set options. See the Settings page for the shortcode syntax.
 Author: Tony Asch
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://nductiv.com/
 
-Copyright (c) 2010 Tony Asch
+Copyright (c) 2010-2011 Tony Asch
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -29,7 +29,7 @@ class tdPix {
 	function tdPix() {
 		global $wp_version;
 		// The current version
-		define('tdPix_VERSION', '1.0.0');
+		define('tdPix_VERSION', '1.0.1');
 		
 		// Check for WP2.6 installation
 		if (!defined ('IS_WP26'))
@@ -66,7 +66,7 @@ class tdPix {
 		Shortcode to embed a 3D image from <a target="_blank" href="http://phereo.com">Phereo.com</a> into a post or page<br/>
 		Notice that there's a button <img src="/plugins/3dPix/tinymce/tdPix.gif" /> in the page and post editors to insert this shortcode and set the parameters.<br/>
 		<Blockquote> 
-		[3dpix id="<i>1234</i>" width="<i>600</i>" height="<i>400</i>" mode="<i>anaglyph</i>"]<br/>
+		[3dpix id="<i>4d37dbde378501ef25a80300</i>" width="<i>600</i>" height="<i>400</i>" mode="<i>anaglyph</i>"]<br/>
 		</Blockquote> 
 		Where the parameters are:<br/>
 		<Blockquote> 

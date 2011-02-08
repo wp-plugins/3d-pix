@@ -3,8 +3,8 @@ Contributors: Nductiv
 Donate link: http://nductiv.com/
 Tags: 3D Photo, Pherio
 Requires at least: 2.6
-Tested up to: 3.0.2
-Stable tag: 1.0.0
+Tested up to: 3.0.5
+Stable tag: 1.0.1
 
 Adds the shortcode [3dpix] which embeds a 3D image from Phereo.com into your post.
 
@@ -16,19 +16,19 @@ This plugin adds the shortcode [3dpix] which embeds a 3D image from Phereo.com i
 
 3D Pix shortcode syntax:
 
-		[3dpix id="1234" width="600" height="400" mode="anaglyph"]
+		[3dpix id="4d37dbde378501ef25a80300" width="600" height="400" mode="anaglyph"]
 		
 		Where the parameters are:
 		
 			id - the Phereo.com image number...you can find this in the Phereo.com URL or Embed Code (Required)
-				A Phereo embed: <iframe  src="http://phereo.com/a/embed/160/anaglyph/500.300/important" 
+				A Phereo embed: <iframe  src="http://phereo.com/e/embed/4d37dbde378501ef25a80300/anaglyph/500.300/important" 
 						width="500" height="300" frameborder="1" vspace="0" hspace="0" 
 						marginwidth="0" marginheight="0" scrolling="no" noresize>
 						<p>See stereo 3D on <a href="http://phereo.com">Phereo</a>.</p></iframe> 
 				In this case the id is 160
 				
-				Or an Phereo.com URL: http://phereo.com/Nductiv/image/123/
-				In this case the id is 123
+				Or an Phereo.com URL: http://phereo.com/Nductiv/image/4d37dbde378501ef25a80300/
+				In this case the id is 4d37dbde378501ef25a80300
 				
 			width - width in pixels of the embedded 3D picture (Optional)
 			
@@ -69,6 +69,9 @@ which do not explicitly set them to different values.
 4. This is how an anaglyph 3D Pix is displayed on a WordPress page/post.
 
 == Changelog ==
+
+= 1.0.1 =
+* Added support for the new Phereo image numbering system. 3D Pix works with either the old or new system.
 
 = 1.0.0 =
 * Fixed some PHP syntax errors
